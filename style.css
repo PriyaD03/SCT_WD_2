@@ -1,0 +1,63 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #4b0082, #8b0000);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.stopwatch {
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+#startStop {
+    background: green;
+}
+
+#reset {
+    background: red;
+}
+
+#lap {
+    background: blue;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 5px;
+}
